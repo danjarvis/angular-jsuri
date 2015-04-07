@@ -25,13 +25,13 @@ module.controller('HomeController', [
   function($scope, Uri) {
     $scope.uri = new Uri('http://user:pass@www.test.com:81/index.html?q=books#fragment');
     $scope.uriParts = {
-      uri.protocol(),    // http
-      uri.userInfo(),    // user:pass
-      uri.host(),        // www.test.com
-      uri.port(),        // 81
-      uri.path(),        // /index.html
-      uri.query(),       // q=books
-      uri.anchor(),      // fragment
+      protocol: uri.protocol(),    // http
+      userInfo: uri.userInfo(),    // user:pass
+      host: uri.host(),            // www.test.com
+      port: uri.port(),            // 81
+      path: uri.path(),            // /index.html
+      query: uri.query(),          // q=books
+      anchor: uri.anchor()         // fragment
     }
 ]);
 ```
