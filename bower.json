@@ -1,0 +1,33 @@
+{
+  "name": "angular-jsuri",
+  "main": "angular-jsuri.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/danjarvis/angular-jsuri",
+  "authors": [
+    "Dan Jarvis <djarvis270@gmail.com>"
+  ],
+  "description": "Angular dependency injection for jsUri.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "uri",
+    "url",
+    "jsUri"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jsUri": "~1.3.0"
+  },
+  "devDependencies": {
+    "angular": "~1.3.15",
+    "angular-mocks": "~1.3.15"
+  }
+}

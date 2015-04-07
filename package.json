@@ -1,0 +1,20 @@
+{
+  "name": "angular-jsuri",
+  "main": "angular-jsuri.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/danjarvis/angular-jsuri",
+  "authors": [
+    "Dan Jarvis <djarvis270@gmail.com>"
+  ],
+  "description": "Angular dependency injection for jsUri.",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js",
+    "test-single": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
