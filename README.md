@@ -6,9 +6,11 @@ Angular dependency injection for [jsUri](https://github.com/derek-watson/jsUri).
 Installation
 ------------
 
-Install this service with [bower](http://bower.io):
+Install this service with [bower](http://bower.io) or [npm](http://npmjs.com):
 
 	bower install angular-jsuri
+
+	npm install angular-jsuri
 
 Angular and jsUri must be loaded prior to angular-jsuri.
 
